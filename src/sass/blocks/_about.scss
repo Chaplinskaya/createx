@@ -1,0 +1,41 @@
+.about {
+    padding: 180px 0;
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &__block {
+        padding-left: 135px;
+
+        &_items {
+            color: #424551;
+
+            &-item {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 30px;
+                text-align: left;
+                list-style-type: none;
+                position: relative;
+
+                &:before {
+                    display: block;
+                    content: '';
+                    background: url('../icons/check.png');
+                    width: 16px;
+                    height: 16px;
+                    position: absolute;
+                    left: -30px;
+                    top: 10px;
+                }
+            }
+        }
+    }
+}

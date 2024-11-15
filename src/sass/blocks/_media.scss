@@ -1,0 +1,480 @@
+@media(max-width: 1230px) {
+
+    .container {
+        max-width: 991px;
+
+    }
+
+    .button {
+        width: 200px;
+    }
+
+    .button_small {
+        width: 130px;
+        margin-bottom: 10px;
+    }
+
+    .header__menu {
+        margin-left: 25px;
+        max-width: 500px;
+
+        &_icon {
+            padding: 0 10px;
+
+            &-link {
+                font-size: 15px;
+            }
+        }
+
+    }
+
+    .header__right-block {
+        margin-left: 100px;
+    }
+
+    .promo__wrapper h1 {
+        font-size: 50px;
+    }
+
+    .promo__footer_icons-icon span {
+        font-size: 40px;
+        padding-right: 10px;
+    }
+
+    .promo__footer_icons-icon {
+        font-size: 15px;
+
+        &::before {
+            left: -45px;
+        }
+    }
+
+    .about {
+        padding: 100px 0;
+
+        &__block {
+            padding-left: 80px;
+        }
+
+
+    }
+
+    h2 {
+        font-size: 38px;
+        margin: 20px 0;
+        line-height: 42px;
+    }
+
+    .courses {
+        &__items {
+            &_item {
+                width: 480px;
+
+                &:nth-child(2n-1) {
+                    margin-right: 16px;
+                }
+            }
+        }
+    }
+
+}
+
+@media(max-width:991px) {
+    .container {
+        max-width: 768px;
+    }
+
+
+    .header {
+        &__wrapper {
+            justify-content: space-between;
+        }
+
+        &__right-block {
+            margin-left: 10px;
+            flex-direction: column;
+
+            &_log {
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .promo {
+        &__wrapper {
+            h1 {
+                font-size: 40px;
+                line-height: 150%;
+            }
+
+            &_block-button {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+        &__footer_icons-icon {
+            font-size: 14px;
+
+            &:before {
+                left: -20px;
+                top: 32px;
+            }
+
+            span {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .about {
+        &__wrapper {
+            flex-direction: column;
+        }
+    }
+
+    .title-mini {
+        margin-top: 15px;
+    }
+
+    .button_small {
+        margin-bottom: 10px;
+    }
+
+    .courses {
+        &__items {
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+
+            &_item {
+                width: 600px;
+
+                &:nth-child(2n-1) {
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+
+    .benefits {
+        &__wrapper {
+            flex-direction: column;
+        }
+
+        &__items-item {
+            width: 250px;
+            height: 40px;
+            font-size: 14px;
+        }
+    }
+
+}
+
+@media(max-width:768px) {
+    .container {
+        max-width: 575px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .header {
+        &__left_block {
+            img {
+                width: 80%;
+            }
+        }
+
+        &__menu {
+            margin-left: 0px;
+
+            &_icon {
+                padding: 0 5px;
+            }
+
+            &_icon-link {
+                font-size: 12px;
+                text-transform: uppercase;
+            }
+        }
+
+        .button {
+            width: 140px;
+            height: 46px;
+            font-size: 14px;
+            line-height: 46px;
+        }
+
+        &__right-block_log {
+            margin-left: 0;
+            font-size: 14px;
+        }
+    }
+
+    .promo {
+        &__wrapper {
+            flex-direction: column;
+
+            &_block-play {
+                display: none;
+            }
+
+            h1 {
+                text-align: center;
+                font-size: 42px;
+            }
+
+            &_block-button {
+                flex-direction: row;
+                justify-content: center;
+            }
+
+        }
+
+        &__footer {
+            margin-top: 70px;
+
+            &_icons {
+                flex-direction: column;
+
+                &-icon {
+
+                    &:before {
+                        top: 30px;
+
+                    }
+
+                    &:nth-child(1):before {
+                        display: block;
+                        content: "";
+                        width: 8px;
+                        height: 8px;
+                        border-radius: 100%;
+                        background: #ff3f3a;
+                        position: absolute;
+                        top: 30px;
+                    }
+                }
+
+            }
+        }
+
+    }
+
+    .courses {
+        &__items {
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+
+            &_item {
+                width: 90%;
+
+                &:nth-child(2n-1) {
+                    margin-right: 0px;
+                }
+            }
+
+            &_block {
+                padding: 20px;
+
+                &-descr {
+                    font-size: 18px;
+                    line-height: 30px;
+                    padding-top: 16px;
+                }
+            }
+
+        }
+    }
+
+    .benefits {
+        &__items {
+            flex-direction: column;
+
+            &-item {
+                border: 1px solid #9a9ca5;
+                width: 280px;
+                margin-bottom: 10px;
+            }
+        }
+
+        &__wrapper {
+            margin-top: 20px;
+
+            h3 {
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media(max-width:575px) {
+    .container {
+        max-width: 350px;
+    }
+
+
+    .header {
+        position: relative;
+
+        &__menu {
+            position: fixed;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            top: 0;
+            left: -100%;
+            width: 50%;
+            height: 100vh;
+            padding: 20px 15px;
+            background-color: rgba(107, 116, 122, 0.95);
+            transition: 0.6s all;
+
+            &_active {
+                left: 0;
+                z-index: 5;
+                margin: 0;
+            }
+
+            &_icon {
+                padding-right: 0;
+                border: none;
+                margin: 10px 0;
+
+                &-link {
+                    font-size: 20px;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        right: 180px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 28px;
+        height: 20px;
+        z-index: 5;
+
+        span {
+            display: block;
+            height: 2px;
+            width: 100%;
+            background-color: #000;
+            margin-bottom: 3px;
+            transition: 0.5s all;
+        }
+
+        &_active {
+            span {
+                margin-bottom: -2px;
+
+
+                &:nth-child(1) {
+                    transform: translateY(3px) rotate(-45deg);
+                }
+
+                &:nth-child(2) {
+                    display: none;
+                }
+
+                &:nth-child(3) {
+                    transform: translateY(3px) rotate(45deg);
+                }
+            }
+
+
+        }
+    }
+
+
+    .header {
+        &__menu {
+            -display: none;
+        }
+
+        &__wrapper {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .button {
+            width: 155px;
+        }
+    }
+
+    .button {
+        width: 180px;
+    }
+
+    .button_small {
+        width: 120px;
+    }
+
+    .about__block {
+        padding-left: 50px;
+    }
+
+    .courses {
+        &__items {
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+
+            &_item {
+                width: 100%;
+
+                &:nth-child(2n-1) {
+                    margin-right: 0px;
+                }
+            }
+
+            &_block {
+                padding: 12px;
+
+                &-descr {
+                    font-size: 14px;
+                    line-height: 18px;
+                    padding-top: 16px;
+                }
+
+                &-total {
+                    font-size: 12px;
+                    line-height: 14px;
+                }
+
+                .orange {
+                    width: 100px;
+                }
+            }
+
+        }
+
+        .button_small {
+            width: 200px;
+            font-size: 15px;
+        }
+    }
+
+    .benefits {
+        &__wrapper {
+            &_text {
+                width: 100%;
+
+                p {
+                    text-align: center;
+                }
+            }
+
+        }
+    }
+}

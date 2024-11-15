@@ -1,0 +1,117 @@
+.courses {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+
+        &_block {
+            padding: 30px 25px;
+
+            &-title {
+                height: 23px;
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 14px;
+                font-weight: 400;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #fff;
+            }
+
+            &-descr {
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 30px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #1E212C;
+                padding-top: 20px;
+            }
+
+            .green {
+                max-width: 80px;
+                background-color: #03CEA4;
+            }
+
+            .orange {
+                width: 111px;
+                background-color: #F89828;
+            }
+
+            .blue {
+                width: 98px;
+                background-color: #5A87FC;
+            }
+
+            .pink {
+                width: 59px;
+                background-color: #F52F6E;
+            }
+
+            &-total {
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 27px;
+                color: #787A80;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                display: flex;
+                justify-content: left;
+                align-items: baseline;
+
+                span {
+                    font-weight: 700;
+                    color: #FF4242;
+                    margin-top: 20px;
+                    display: flex;
+                    align-items: center;
+                    padding-right: 5px;
+
+                    &:after {
+                        display: block;
+                        content: '';
+                        width: 1px;
+                        height: 16px;
+                        background-color: #787A80;
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+
+        &_item {
+            width: 580px;
+            border: 1px solid #E5E8ED;
+            box-shadow: 0px 4px 4px -4px #1E212C08;
+            box-shadow: 0px 12px 10px -6px #9A9CA50A;
+            box-shadow: 0px 30px 24px -10px #9A9CA50D;
+            box-shadow: 0px 80px 80px -20px #9A9CA514;
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 30px;
+
+            &:nth-child(2n-1) {
+                margin-right: 30px;
+            }
+
+            img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+    }
+
+    .button_small {
+        width: 203px;
+        height: 52px;
+    }
+}

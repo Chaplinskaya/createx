@@ -1,0 +1,85 @@
+.header {
+    display: flex;
+    justify-content: center;
+
+    &__wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    &__left_block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+            width: 130px;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 60px;
+        height: 26px;
+        padding: 0;
+
+        &_icon {
+            list-style-type: none;
+            padding: 0 20px;
+
+            &-link {
+                text-decoration: none;
+                color: #424551;
+                font-size: 16px;
+            }
+        }
+
+        &_icon:nth-child(1) {
+            padding-left: 0px;
+        }
+
+        &_icon:nth-child(5) {
+            padding-right: 0px;
+        }
+    }
+
+    &__right-block {
+        margin-left: 220px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &_log {
+            text-decoration: none;
+            margin-left: 35px;
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 25.6px;
+            text-align: left;
+            color: #424551;
+
+            &:before {
+                content: '';
+                display: block;
+                background: url("../icons/person.png") center (center/cover) no-repeat;
+                margin-right: 8px;
+                width: 18px;
+                height: 18px;
+
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+
+    }
+}

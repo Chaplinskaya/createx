@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html {
+    font-family: "Lato", sans-serif;
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/button';
+@import 'blocks/title';
+@import 'blocks/about';
+@import 'blocks/courses';
+@import 'blocks/benefits';
+@import 'blocks/media';

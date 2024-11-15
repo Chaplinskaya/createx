@@ -315,12 +315,17 @@
 
 @media(max-width:575px) {
     .container {
-        max-width: 350px;
+        max-width: 320px;
     }
 
 
     .header {
         position: relative;
+
+        &__logo {
+            display: none;
+
+        }
 
         &__menu {
             position: fixed;
@@ -357,7 +362,7 @@
     .hamburger {
         display: block;
         position: absolute;
-        right: 180px;
+        left: 20px;
         top: 50%;
         transform: translateY(-50%);
         width: 28px;
@@ -407,16 +412,16 @@
         }
 
         .button {
-            width: 155px;
+            width: 150px;
         }
     }
 
     .button {
-        width: 180px;
+        width: 170px;
     }
 
     .button_small {
-        width: 120px;
+        width: 100px;
     }
 
     .about__block {

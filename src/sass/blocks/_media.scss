@@ -401,13 +401,29 @@
     }
 
     .promo {
+        padding: 20px 0 40px 0;
+        min-height: 100%;
+
         &__wrapper {
             margin-top: 50px;
 
             h1 {
-                font-size: 36px;
+                font-size: 32px;
             }
         }
+
+        &__footer_icons {
+            align-items: center;
+
+            &-icon {
+                height: 40px;
+
+                span {
+                    font-size: 24px;
+                }
+            }
+        }
+
 
     }
 
@@ -458,7 +474,7 @@
                 }
 
                 img {
-                    max-width: 50%;
+                    width: 50%;
                 }
             }
 
@@ -490,12 +506,18 @@
     }
 
     .benefits {
+        padding: 70px 0;
+
         &__wrapper {
             &_text {
                 width: 100%;
 
                 p {
                     text-align: center;
+                }
+
+                h3 {
+                    font-size: 28px;
                 }
             }
 

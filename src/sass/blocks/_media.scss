@@ -400,6 +400,16 @@
         }
     }
 
+    .promo {
+        &__wrapper {
+            margin-top: 50px;
+
+            h1 {
+                font-size: 36px;
+            }
+        }
+
+    }
 
     .header {
         &__menu {
@@ -424,9 +434,14 @@
         width: 100px;
     }
 
-    .about__block {
-        padding-left: 50px;
+    .about {
+        padding: 50px 0;
+
+        &__block {
+            padding-left: 50px;
+        }
     }
+
 
     .courses {
         &__items {
@@ -440,6 +455,10 @@
 
                 &:nth-child(2n-1) {
                     margin-right: 0px;
+                }
+
+                img {
+                    max-width: 50%;
                 }
             }
 
@@ -466,7 +485,7 @@
 
         .button_small {
             width: 200px;
-            font-size: 15px;
+            font-size: 14px;
         }
     }
 

@@ -170,6 +170,30 @@
         }
     }
 
+    .events {
+        padding: 40px 0;
+
+        &__items {
+            &_item-block {
+                span {
+                    font-size: 18px;
+                }
+
+            }
+
+            &_data-num {
+                font-size: 40px;
+            }
+        }
+
+        .button-events {
+            width: 136px;
+            font-size: 13px;
+
+        }
+
+    }
+
 }
 
 @media(max-width:768px) {
@@ -311,6 +335,49 @@
             }
         }
     }
+
+    .events {
+        padding: 30px 0;
+
+        &__items {
+            &_data {
+                flex-direction: column;
+
+                &-num {
+                    font-size: 32px;
+                }
+
+                &-text-descr {
+                    font-size: 16px;
+                }
+            }
+
+            &_item {
+                &-block {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    span {
+                        font-size: 20px;
+                    }
+
+                    &-time {
+                        font-size: 18px;
+                    }
+                }
+
+            }
+        }
+
+        .button-events {
+            width: 142px;
+            height: 40px;
+            font-size: 14px;
+            letter-spacing: 0.1px;
+            line-height: 40px;
+        }
+    }
 }
 
 @media(max-width:575px) {
@@ -318,6 +385,10 @@
         max-width: 320px;
     }
 
+    h1,
+    h2 {
+        font-size: 30px;
+    }
 
     .header {
         position: relative;
@@ -405,10 +476,10 @@
         min-height: 100%;
 
         &__wrapper {
-            margin-top: 50px;
+            margin-top: 30px;
 
             h1 {
-                font-size: 32px;
+                font-size: 30px;
             }
         }
 
@@ -439,11 +510,14 @@
 
         .button {
             width: 150px;
+
         }
     }
 
     .button {
-        width: 170px;
+        width: 150px;
+        height: 46px;
+        line-height: 46px;
     }
 
     .button_small {
@@ -475,6 +549,7 @@
 
                 img {
                     width: 50%;
+                    height: 50%;
                 }
             }
 
@@ -522,5 +597,33 @@
             }
 
         }
+    }
+
+    .events {
+        &__items {
+            &_data {
+                padding: 15px;
+
+                &-sub {
+                    font-size: 14px;
+                    text-align: center;
+                    margin-bottom: 10px;
+                }
+
+                &-text-descr {
+                    font-size: 14px;
+                    text-align: center;
+                    padding: 10px;
+                }
+            }
+
+
+            &_item {
+                &-block-time {
+                    font-size: 16px;
+                }
+            }
+        }
+
     }
 }

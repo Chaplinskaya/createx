@@ -1,0 +1,90 @@
+.events {
+    background: url(../img/events.jpg) center (center/cover) no-repeat;
+    padding: 60px 0 80px 0;
+
+    h2,
+    .title-mini {
+        text-align: center;
+    }
+
+    &__items {
+        display: flex;
+        flex-direction: column;
+
+        &_data {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            margin-bottom: 24px;
+            max-width: 1230px;
+            background-color: #fff;
+            padding: 32px 40px;
+
+            .father {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            &-num {
+                font-size: 48px;
+                font-weight: 900;
+                color: #FF3F3A;
+                line-height: 62.4px;
+                letter-spacing: 1px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                padding-right: 20px;
+            }
+
+            &-sub {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 32px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #787A80;
+            }
+        }
+
+        &_item-block {
+            display: flex;
+            flex-direction: column;
+            padding: 0 40px 0 0;
+
+            span {
+                display: block;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 30px;
+                color: #1E212C;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+            }
+
+            &-time {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 32px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #787A80;
+            }
+        }
+
+        &_data-text-descr {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 30px;
+            color: #1E212C;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            padding-right: 40px;
+        }
+    }
+}

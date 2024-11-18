@@ -601,8 +601,17 @@
 
     .events {
         &__items {
+            justify-content: center;
+            width: 98%;
+            margin: 0 auto;
+
             &_data {
                 padding: 15px;
+
+
+                &-num {
+                    padding-right: 5px;
+                }
 
                 &-sub {
                     font-size: 14px;
@@ -619,8 +628,12 @@
 
 
             &_item {
-                &-block-time {
-                    font-size: 16px;
+                &-block {
+                    padding: 0;
+
+                    &-time {
+                        font-size: 16px;
+                    }
                 }
             }
         }

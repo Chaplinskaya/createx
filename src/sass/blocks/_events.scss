@@ -20,10 +20,18 @@
             background-color: #fff;
             padding: 32px 40px;
 
+            &-text {
+                width: 750px;
+                display: flex;
+                justify-content: left;
+                flex-direction: column;
+            }
+
             .father {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+
             }
 
             &-num {
@@ -52,7 +60,9 @@
         &_item-block {
             display: flex;
             flex-direction: column;
-            padding: 0 40px 0 0;
+            padding: 0 30px 0 0;
+            width: 130px;
+
 
             span {
                 display: block;
@@ -85,6 +95,38 @@
             text-underline-position: from-font;
             text-decoration-skip-ink: none;
             padding-right: 40px;
+        }
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+
+        &_question {
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 42px;
+            color: #1E212C;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            margin-right: 40px;
+        }
+
+        &_button {
+            width: 215px;
+            height: 52px;
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 52px;
+            background-color: #FF3F3A;
+            letter-spacing: 0.5px;
+            text-align: center;
+            color: #fff;
+
         }
     }
 }

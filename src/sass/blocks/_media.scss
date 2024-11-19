@@ -85,6 +85,7 @@
     }
 
 
+
     .header {
         &__wrapper {
             justify-content: space-between;
@@ -107,9 +108,13 @@
                 line-height: 150%;
             }
 
+            img {
+                max-width: 60%;
+            }
+
             &_block-button {
                 display: flex;
-                flex-direction: column;
+
             }
         }
 
@@ -130,6 +135,14 @@
     .about {
         &__wrapper {
             flex-direction: column;
+
+            .button {
+                margin: 0px auto;
+            }
+        }
+
+        &__block_items {
+            margin-bottom: 30px;
         }
     }
 
@@ -175,10 +188,21 @@
 
         &__items {
             &_item-block {
+                width: 70px;
+                padding: 0 20px 0 0;
+
                 span {
                     font-size: 18px;
                 }
 
+            }
+
+            &_data-text {
+                width: 600px;
+
+                &-descr {
+                    padding-right: 20px;
+                }
             }
 
             &_data-num {
@@ -230,6 +254,7 @@
             height: 46px;
             font-size: 14px;
             line-height: 46px;
+
         }
 
         &__right-block_log {
@@ -241,6 +266,10 @@
     .promo {
         &__wrapper {
             flex-direction: column;
+
+            img {
+                max-width: 100%;
+            }
 
             &_block-play {
                 display: none;
@@ -347,9 +376,14 @@
                     font-size: 32px;
                 }
 
-                &-text-descr {
-                    font-size: 16px;
+                &-text {
+                    width: 100%;
+
+                    &-descr {
+                        font-size: 16px;
+                    }
                 }
+
             }
 
             &_item {
@@ -357,6 +391,7 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    width: 100%;
 
                     span {
                         font-size: 20px;
@@ -376,6 +411,15 @@
             font-size: 14px;
             letter-spacing: 0.1px;
             line-height: 40px;
+        }
+
+        &__footer {
+            flex-direction: column;
+
+            &_question {
+                margin: 0 auto;
+                padding-bottom: 15px;
+            }
         }
     }
 }
@@ -607,6 +651,8 @@
 
             &_data {
                 padding: 15px;
+
+
 
 
                 &-num {

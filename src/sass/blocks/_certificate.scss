@@ -1,0 +1,48 @@
+.certificate {
+    padding: 120px 0;
+
+    &__wrapper {
+        position: relative;
+
+
+        &_img {
+
+            position: absolute;
+            top: 0px;
+            right: 0;
+
+
+            img {
+                width: 705px;
+                max-width: 100%;
+
+            }
+        }
+    }
+
+    &__block {
+        width: 400px;
+
+
+        &_icons {
+            padding-top: 32px;
+            display: flex;
+            justify-content: left;
+
+            &-icon {
+                padding-right: 40px;
+            }
+        }
+
+        &_text {
+            padding-top: 28px;
+            font-size: 16px;
+            color: #424551;
+            font-weight: 400;
+            line-height: 25.6px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+        }
+    }
+}

@@ -81,10 +81,17 @@
         padding: 70px 0;
 
         &__wrapper_img {
+            left: 340px;
+            top: 70px;
 
 
+            img {
+                width: 90%;
+            }
+        }
 
-            img {}
+        &__block_icons-icon {
+            padding-right: 15px;
         }
     }
 }
@@ -229,10 +236,14 @@
     }
 
     .certificate {
-        padding: 70px 0;
+        padding: 50px 0;
 
         &__block {
             width: 50%;
+
+            &_text {
+                padding-top: 5px;
+            }
 
             &_icons {
                 width: 70%;
@@ -243,12 +254,19 @@
             }
         }
 
-        &__wrapper_img {
-            top: 0px;
+        &__wrapper {
+            justify-content: center;
 
+
+            &_img {
+                position: static;
+                width: 100%;
+                height: 100%;
+            }
 
             img {
-                max-width: 100%;
+                width: 100%;
+                display: block;
             }
         }
     }

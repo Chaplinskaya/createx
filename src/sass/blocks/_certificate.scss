@@ -3,20 +3,17 @@
 
     &__wrapper {
         position: relative;
+        display: flex;
+        justify-content: space-between;
 
 
         &_img {
-
+            width: 705px;
+            height: 500px;
             position: absolute;
-            top: 0px;
-            right: 0;
-
-
-            img {
-                width: 705px;
-                max-width: 100%;
-
-            }
+            top: 100px;
+            right: 60px;
+            object-fit: cover;
         }
     }
 

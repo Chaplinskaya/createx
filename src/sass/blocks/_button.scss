@@ -49,4 +49,9 @@
     color: #FF3F3A;
     border: solid 1px #FF3F3A;
     border-radius: 4px;
+
+    &:hover {
+        background-color: #ff3f3a;
+        color: #fff;
+    }
 }

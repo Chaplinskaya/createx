@@ -1,4 +1,49 @@
 .meet {
     padding: 130px 0 100px 0;
     background-color: #F4F5F6;
+
+    &__carousel {
+        width: 1230px;
+        max-width: 100%;
+        margin: 0 auto;
+        position: relative;
+
+        &-item {
+            width: 214px;
+            padding: 0 20px;
+
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .slick-prev {
+            border: none;
+            width: 24px;
+            position: absolute;
+            background-color: transparent;
+            top: -70px;
+            right: 70px;
+
+            img {
+                width: 24px;
+            }
+        }
+
+        .slick-next {
+            border: none;
+            width: 24px;
+            position: absolute;
+            background-color: transparent;
+            top: -70px;
+            right: 40px;
+
+            img {
+                width: 24px;
+            }
+        }
+
+
+    }
 }

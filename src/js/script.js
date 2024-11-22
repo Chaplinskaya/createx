@@ -27,7 +27,7 @@ window.addEventListener('DOMContentLoaded', () => {
         adaptiveHeight: true,
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 1240,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
@@ -37,7 +37,17 @@ window.addEventListener('DOMContentLoaded', () => {
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 990,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    dots: false,
+                    infinite: true
+
+                }
+            },
+            {
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
                     dots: false,
@@ -45,7 +55,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 575,
                 settings: {
                     slidesToShow: 1,
                     dots: false,

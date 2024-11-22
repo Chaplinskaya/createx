@@ -11,10 +11,46 @@
         &-item {
             width: 214px;
             padding: 0 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &-name {
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 30px;
+                color: #424551;
+                text-align: center;
+                padding-top: 16px;
+                width: 285px;
+            }
+
+            &-prof {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 25.6px;
+                color: #787A80;
+                text-align: center;
+                width: 285px;
+            }
+
+            &-img {
+                width: 285px;
+                height: 340px;
+                background-color: #FFCF2D;
+                display: flex;
+                justify-content: center;
+                align-items: end;
+
+                &:hover {
+                    background-color: linear-gradient(180deg, rgba(30, 33, 44, 0) 43.9%, rgba(30, 33, 44, 0.03) 55.21%, rgba(30, 33, 44, 0.33) 68.73%, rgba(30, 33, 44, 0.56) 76.17%, rgba(30, 33, 44, 0.768225) 83.75%, rgba(30, 33, 44, 0.92) 91.49%, #1E212C 100%);
+                }
+            }
 
 
             img {
-                width: 100%;
+                max-width: 100%;
+
             }
         }
 

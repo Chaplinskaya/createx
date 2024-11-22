@@ -271,6 +271,24 @@
         }
     }
 
+    .meet {
+        &__carousel-item {
+            &-img {
+                width: 95%;
+                height: auto;
+            }
+
+            &-name {
+                width: 95%;
+            }
+
+            &-prof {
+                width: 95%;
+            }
+        }
+
+    }
+
 }
 
 @media(max-width:768px) {
@@ -516,6 +534,20 @@
         }
 
     }
+
+    .meet {
+        padding: 80px 0 80px 0;
+
+        .title-mini {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+    }
+
 }
 
 @media(max-width:575px) {
@@ -779,5 +811,29 @@
             }
         }
 
+    }
+
+    .meet {
+        padding: 40px 0 60px 0;
+
+        &__carousel {
+            .slick-prev {
+                top: 405px;
+                right: 180px;
+            }
+
+            .slick-next {
+                top: 405px;
+                right: 130px;
+            }
+
+            &-item-prof {
+                font-size: 13px;
+            }
+
+            &-item-img {
+                margin: 0 auto;
+            }
+        }
     }
 }

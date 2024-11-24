@@ -272,6 +272,8 @@
     }
 
     .meet {
+        padding: 90px 0;
+
         &__carousel-item {
             &-img {
                 width: 95%;
@@ -280,11 +282,21 @@
 
             &-name {
                 width: 95%;
+                margin: 0 auto;
             }
 
             &-prof {
                 width: 95%;
+                margin: 0 auto;
             }
+        }
+
+        .title-mini {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
         }
 
     }
@@ -537,14 +549,6 @@
 
     .meet {
         padding: 80px 0 80px 0;
-
-        .title-mini {
-            text-align: center;
-        }
-
-        h2 {
-            text-align: center;
-        }
 
     }
 
@@ -819,12 +823,12 @@
         &__carousel {
             .slick-prev {
                 top: 405px;
-                right: 180px;
+                right: 170px;
             }
 
             .slick-next {
                 top: 405px;
-                right: 130px;
+                right: 120px;
             }
 
             &-item-prof {

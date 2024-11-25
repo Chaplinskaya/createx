@@ -94,14 +94,46 @@
             padding-right: 15px;
         }
     }
+
+    .meet {
+        &__testimonials_carousel {
+            .slick-prev {
+                left: -60px;
+                top: 50%;
+                transform: translateY(-50%);
+                display: block;
+            }
+
+            .slick-next {
+                right: -60px;
+                top: 50%;
+                transform: translateY(-50%);
+                display: block;
+            }
+        }
+
+
+        &__testimonials_carousel {
+            width: 850px;
+            margin: 0 auto;
+            max-width: 100%;
+
+            &-items {
+                padding: 50px;
+
+                &-item {
+                    width: 100%;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
 }
 
 @media(max-width:991px) {
     .container {
         max-width: 768px;
     }
-
-
 
     .header {
         &__wrapper {
@@ -274,7 +306,9 @@
     .meet {
         padding: 90px 0;
 
+
         &__carousel-item {
+
             &-img {
                 width: 95%;
                 height: auto;
@@ -300,7 +334,6 @@
         }
 
     }
-
 }
 
 @media(max-width:768px) {
@@ -549,6 +582,20 @@
 
     .meet {
         padding: 80px 0 80px 0;
+
+        &__testimonials_carousel {
+            &-items {
+                padding: 30px;
+            }
+
+            &-text {
+                font-size: 16px;
+            }
+        }
+
+        .title-mini {
+            margin-top: 80px;
+        }
 
     }
 
@@ -828,7 +875,7 @@
 
             .slick-next {
                 top: 405px;
-                right: 120px;
+                right: 110px;
             }
 
             &-item-prof {
@@ -839,5 +886,29 @@
                 margin: 0 auto;
             }
         }
+
+        &__testimonials_carousel {
+            &-text {
+                font-size: 14px;
+                line-height: 18px
+            }
+
+            &-items {
+                padding: 20px;
+            }
+
+            &-block {
+                padding-top: 16px;
+
+                &-name {
+                    font-size: 14px;
+                }
+
+                &-course {
+                    font-size: 14px;
+                }
+            }
+        }
+
     }
 }

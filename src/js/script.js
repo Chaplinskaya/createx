@@ -73,7 +73,24 @@ window.addEventListener('DOMContentLoaded', () => {
         slidesToScroll: 1,
         prevArrow: '<button type="button" class="slick-prev"><img src="icons/left.png"></button>',
         nextArrow: '<button type="button" class= "slick-next"><img src="icons/right.png"></button>',
-        adaptiveHeight: true
+        adaptiveHeight: true,
+        responsive: [
+            {
+                breakpoint: 991,
+                settings: {
+                    prevArrow: '<button type="button" class="slick-prev" style="display:none"></button>',
+                    nextArrow: '<button type="button" class= "slick-next" style="display:none"></button>'
+
+                },
+
+                breakpoint: 768,
+                settings: {
+                    dots: false,
+                    prevArrow: '<button type="button" class="slick-prev" style="display:none"></button>',
+                    nextArrow: '<button type="button" class= "slick-next" style="display:none"></button>'
+
+                }
+            }]
     });
 
 })

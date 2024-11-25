@@ -59,6 +59,8 @@ window.addEventListener('DOMContentLoaded', () => {
                 settings: {
                     slidesToShow: 1,
                     dots: false,
+                    prevArrow: '<button type="button" class="slick-prev" style="display:none"></button>',
+                    nextArrow: '<button type="button" class= "slick-next" style="display:none"></button>',
                     slidesToScroll: 1
                 }
             }

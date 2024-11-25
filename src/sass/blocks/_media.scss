@@ -327,6 +327,7 @@
 
         .title-mini {
             text-align: center;
+            margin-top: 100px;
         }
 
         h2 {
@@ -608,7 +609,7 @@
 
     h1,
     h2 {
-        font-size: 30px;
+        font-size: 29px;
     }
 
     .header {
@@ -871,11 +872,19 @@
             .slick-prev {
                 top: 405px;
                 right: 170px;
+
+                &:hover {
+                    background-color: transparent;
+                }
             }
 
             .slick-next {
                 top: 405px;
                 right: 110px;
+
+                &:hover {
+                    background-color: transparent;
+                }
             }
 
             &-item-prof {
@@ -888,6 +897,8 @@
         }
 
         &__testimonials_carousel {
+            width: 95%;
+
             &-text {
                 font-size: 14px;
                 line-height: 18px
@@ -910,5 +921,16 @@
             }
         }
 
+        .slick-next:hover {
+            display: none;
+        }
+
+        .slick-prev:hover {
+            display: none;
+        }
+
+        .title-mini {
+            margin-top: 60px;
+        }
     }
 }

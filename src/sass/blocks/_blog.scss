@@ -1,0 +1,114 @@
+.blog {
+    padding: 120px 0 180px 0;
+
+    h2 {
+        margin-top: 0px;
+    }
+
+    .title-mini {
+        margin: 20px 0 10px 0;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        margin-top: 30px;
+
+        &_items {
+            width: 390px;
+            min-height: 507px;
+
+            &-img {
+                max-width: 100%;
+            }
+
+            &-title {
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 30px;
+                color: #1E212C;
+                text-align: left;
+                margin-top: 8px;
+            }
+
+            &-text {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 25.6px;
+                color: #424551;
+                text-align: left;
+                padding-top: 8px;
+                padding-bottom: 8px;
+            }
+
+            &-descr {
+                display: flex;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 21px;
+                color: #787A80;
+                text-align: left;
+
+                &-item {
+
+
+                    &:nth-child(2) {
+                        padding: 0 18px;
+                        position: relative;
+
+                        &:after {
+                            content: '';
+                            display: block;
+                            width: 0.5px;
+                            height: 18px;
+                            background-color: #787A80;
+                            top: 0px;
+                            left: 10px;
+                            position: absolute;
+                        }
+                    }
+
+                    &:nth-child(3) {
+                        position: relative;
+
+                        &:before {
+                            content: '';
+                            display: block;
+                            width: 0.5px;
+                            height: 18px;
+                            background-color: #787A80;
+                            position: absolute;
+                            left: -10px;
+                        }
+                    }
+                }
+            }
+
+            &-link {
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 25.6px;
+                color: #1E212C;
+                text-align: left;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+
+                &-img {
+                    width: 24px;
+                    height: 24px;
+
+                    img {
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

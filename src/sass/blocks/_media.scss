@@ -618,6 +618,12 @@
 
     }
 
+    .blog {
+        &__block {
+            flex-direction: column;
+        }
+    }
+
 }
 
 @media(max-width:575px) {
@@ -967,6 +973,21 @@
 
         .slick-dots li button {
             width: 15px;
+        }
+    }
+
+    .blog {
+        &__wrapper {
+            flex-direction: column;
+        }
+
+        &__block {
+            flex-direction: column;
+
+            &_items {
+                width: 95%;
+                margin: 0 auto;
+            }
         }
     }
 }

@@ -323,7 +323,7 @@
 
         .title-mini {
             text-align: center;
-            margin-top: 70px;
+            margin-top: 60px;
         }
 
         h2 {
@@ -919,7 +919,7 @@
 
             &-text {
                 font-size: 14px;
-                line-height: 18px
+                line-height: 17px
             }
 
             &-items {
@@ -927,7 +927,11 @@
             }
 
             &-block {
-                padding-top: 16px;
+                padding-top: 10px;
+
+                img {
+                    width: 25%;
+                }
 
                 &-name {
                     font-size: 14px;

@@ -58,7 +58,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 breakpoint: 575,
                 settings: {
                     slidesToShow: 1,
-                    dots: false,
+                    dots: true,
                     arrow: false,
                     prevArrow: '<button type="button" class="slick-prev slick-arrow" style="display:none"></button>',
                     nextArrow: '<button type="button" class= "slick-next slick-arrow" style="display:none"></button>',
@@ -89,7 +89,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
                 breakpoint: 768,
                 settings: {
-                    dots: false,
+                    dots: true,
                     arrows: false,
                     prevArrow: '<button type="button" class="slick-prev" style="display:none"></button>',
                     nextArrow: '<button type="button" class= "slick-next" style="display:none"></button>'

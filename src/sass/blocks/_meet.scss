@@ -104,6 +104,18 @@
                 width: 810px;
                 height: 216px;
                 margin: 0 auto;
+                position: relative;
+                padding-left: 30px;
+
+                &:before {
+                    content: '';
+                    display: block;
+                    background: url(../img/braces.png) center (center/cover) no-repeat;
+                    width: 28px;
+                    height: 20px;
+                    position: absolute;
+                    left: -10px;
+                }
             }
         }
 
@@ -114,6 +126,8 @@
             color: #424551;
             text-align: left;
             margin: 0 auto;
+
+
         }
 
         &-block {
@@ -189,10 +203,9 @@
 
     li button {
         width: 30px;
-        height: 1px;
         font-size: 0;
         margin: 0 5px;
-        border-color: #B3B7BC;
+        border: solid 1px #B3B7BC;
 
         &:hover {
             border-color: #424551;

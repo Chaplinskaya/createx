@@ -918,12 +918,22 @@
             width: 95%;
 
             &-text {
-                font-size: 14px;
-                line-height: 17px
+                font-size: 13px;
+                line-height: 16px
             }
 
             &-items {
                 padding: 20px;
+
+                &-item {
+                    padding-left: 20px;
+
+                    &:before {
+                        width: 18px;
+                        height: 14px;
+                        left: -10px;
+                    }
+                }
             }
 
             &-block {
@@ -952,7 +962,11 @@
         }
 
         .title-mini {
-            margin-top: 60px;
+            margin-top: 100px;
+        }
+
+        .slick-dots li button {
+            width: 15px;
         }
     }
 }

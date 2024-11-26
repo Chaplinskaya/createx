@@ -59,8 +59,9 @@ window.addEventListener('DOMContentLoaded', () => {
                 settings: {
                     slidesToShow: 1,
                     dots: false,
-                    prevArrow: '<button type="button" class="slick-prev" style="display:none"></button>',
-                    nextArrow: '<button type="button" class= "slick-next" style="display:none"></button>',
+                    arrow: false,
+                    prevArrow: '<button type="button" class="slick-prev slick-arrow" style="display:none"></button>',
+                    nextArrow: '<button type="button" class= "slick-next slick-arrow" style="display:none"></button>',
                     slidesToScroll: 1
                 }
             }
@@ -71,6 +72,7 @@ window.addEventListener('DOMContentLoaded', () => {
         dots: true,
         infinite: true,
         speed: 300,
+        arrows: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         prevArrow: '<button type="button" class="slick-prev"><img src="icons/left.png"></button>',
@@ -88,6 +90,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 breakpoint: 768,
                 settings: {
                     dots: false,
+                    arrows: false,
                     prevArrow: '<button type="button" class="slick-prev" style="display:none"></button>',
                     nextArrow: '<button type="button" class= "slick-next" style="display:none"></button>'
 

@@ -379,9 +379,14 @@
             text-align: center;
         }
 
-        &__wrapper_button {
-            margin: 0 auto;
+        &__wrapper {
+            flex-direction: column;
+
+            &_button {
+                margin: 0 auto;
+            }
         }
+
     }
 }
 

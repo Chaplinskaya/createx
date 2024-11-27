@@ -24,6 +24,10 @@
             width: 390px;
             min-height: 507px;
 
+            &:nth-child(2) {
+                margin: 0 10px;
+            }
+
             &-img {
                 max-width: 100%;
             }

@@ -124,6 +124,13 @@
         }
     }
 
+    .blog {
+        &__block_items {
+            &:nth-child(2) {
+                margin: 0 15px;
+            }
+        }
+    }
 }
 
 @media(max-width:991px) {
@@ -352,6 +359,27 @@
 
         }
 
+    }
+
+    .blog {
+        &__block {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            &_items {
+                margin: 15px 0;
+            }
+        }
+
+        .title-mini,
+        h2 {
+            text-align: center;
+        }
+
+        &__wrapper_button {
+            margin: 0 auto;
+        }
     }
 }
 

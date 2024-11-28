@@ -58,24 +58,23 @@
                 line-height: 21px;
                 color: #787A80;
                 text-align: left;
+                margin-top: 20px;
 
                 &-item {
+                    height: 14px;
+                    line-height: 14px;
 
+                    &:nth-child(1) {
+                        border-right: 0.5px solid gray;
+                        padding-right: 10px;
+
+                    }
 
                     &:nth-child(2) {
-                        padding: 0 43px;
+                        padding-left: 30px;
                         position: relative;
-
-                        &:after {
-                            content: '';
-                            display: block;
-                            width: 0.5px;
-                            height: 18px;
-                            background-color: #787A80;
-                            top: 0px;
-                            left: 10px;
-                            position: absolute;
-                        }
+                        border-right: 0.5px solid gray;
+                        padding-right: 10px;
 
                         &:before {
                             display: block;
@@ -84,23 +83,14 @@
                             width: 16px;
                             height: 16px;
                             position: absolute;
-                            left: 20px;
-                            top: 2px;
+                            left: 10px;
+                            top: -2px;
                         }
                     }
 
                     &:nth-child(3) {
-                        position: relative;
+                        padding-left: 10px;
 
-                        &:before {
-                            content: '';
-                            display: block;
-                            width: 0.5px;
-                            height: 18px;
-                            background-color: #787A80;
-                            position: absolute;
-                            left: -10px;
-                        }
                     }
                 }
             }

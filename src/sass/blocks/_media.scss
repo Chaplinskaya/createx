@@ -386,7 +386,11 @@
                 margin: 0 auto;
             }
         }
+    }
 
+    .subscribe {
+        background: url(../img/subscribe.png) center (center/cover) no-repeat;
+        padding: 90px 0;
     }
 }
 
@@ -659,6 +663,17 @@
         }
     }
 
+    .subscribe {
+        form {
+            max-width: 90%;
+
+            input {
+                max-width: 100%;
+            }
+        }
+
+
+    }
 }
 
 @media(max-width:575px) {
@@ -1022,6 +1037,19 @@
             &_items {
                 width: 95%;
                 margin: 0 auto;
+            }
+        }
+    }
+
+    .subscribe {
+        form {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            button {
+                margin-top: 20px;
+                margin-left: 0;
             }
         }
     }

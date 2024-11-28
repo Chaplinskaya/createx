@@ -63,7 +63,7 @@
 
 
                     &:nth-child(2) {
-                        padding: 0 18px;
+                        padding: 0 43px;
                         position: relative;
 
                         &:after {
@@ -75,6 +75,17 @@
                             top: 0px;
                             left: 10px;
                             position: absolute;
+                        }
+
+                        &:before {
+                            display: block;
+                            content: '';
+                            background-image: url(../icons/calendar.png);
+                            width: 16px;
+                            height: 16px;
+                            position: absolute;
+                            left: 20px;
+                            top: 2px;
                         }
                     }
 

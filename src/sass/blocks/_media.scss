@@ -1134,7 +1134,7 @@
 
         &__wrapper {
             flex-direction: column;
-            align-items: left;
+            padding-left: 10px;
 
             &_map {
                 display: none;
@@ -1162,7 +1162,6 @@
 
                 input {
                     max-width: 100%;
-                    width: 100%;
                     margin-top: 10px;
                 }
             }

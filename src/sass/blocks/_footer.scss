@@ -105,7 +105,11 @@
             &-tel {
                 position: relative;
                 padding-left: 17px;
-                text-decoration: none;
+
+                a {
+                    text-decoration: none;
+                }
+
 
                 &::before {
                     display: block;

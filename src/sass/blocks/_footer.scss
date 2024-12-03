@@ -1,0 +1,190 @@
+.footer {
+    background-color: rgb(30, 33, 44);
+    padding: 80px 0 0 0;
+
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 40px;
+
+        h5 {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 1px;
+            text-align: left;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        &_info {
+            width: 280px;
+            margin-right: 75px;
+
+            img {
+                padding-bottom: 24px;
+            }
+
+            svg {
+                margin-right: 20px;
+                width: 24px;
+                height: 24px;
+            }
+
+            &-text {
+                color: #fff;
+                font-family: Lato;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 18px;
+                text-align: left;
+                padding-bottom: 38px;
+            }
+
+        }
+
+        &_map {
+            padding-right: 75px;
+            color: #fff;
+
+            &-link li {
+                list-style-type: none;
+
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 25.6px;
+                    text-align: left;
+                    padding-bottom: 5px;
+                }
+
+            }
+        }
+
+        &_courses {
+            padding-right: 75px;
+            color: #fff;
+
+            &-link li {
+                list-style-type: none;
+
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 25.6px;
+                    text-align: left;
+                    padding-bottom: 5px;
+                }
+
+            }
+        }
+
+        &_contact {
+            display: flex;
+            flex-direction: column;
+            color: #fff;
+            padding-right: 75px;
+
+            h5 {
+                padding-bottom: 10px;
+            }
+
+            &>div {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 25.6px;
+                text-align: left;
+                padding-top: 10px;
+            }
+
+            &-tel {
+                position: relative;
+                padding-left: 17px;
+
+                &::before {
+                    display: block;
+                    content: '';
+                    background: url(../icons/rectangle.png) center (center/cover) no-repeat;
+                    width: 9.5px;
+                    height: 15px;
+                    position: absolute;
+                    left: 0;
+                    top: 16px;
+                }
+            }
+
+            &-email {
+                position: relative;
+                padding-left: 21px;
+
+                &::before {
+                    display: block;
+                    content: '';
+                    background: url(../icons/letter.png) center (center/cover) no-repeat;
+                    width: 16px;
+                    height: 13px;
+                    position: absolute;
+                    left: 0;
+                    top: 17px;
+                }
+            }
+        }
+
+        &_signup {
+            display: flex;
+            flex-direction: column;
+            color: #fff;
+            width: 280px;
+
+            input {
+                width: 286px;
+                height: 36px;
+                border-radius: 4px;
+                border: 1px;
+                margin-top: 24px;
+                margin-bottom: 15px;
+                padding-left: 10px;
+            }
+
+            span {
+                font-size: 10px;
+                line-height: 15px;
+                font-weight: 400;
+            }
+        }
+    }
+
+    &__sub {
+        width: 100%;
+        height: 58px;
+        background-color: rgba(255, 255, 255, 0.05);
+        padding-bottom: 20px;
+        color: #fff;
+        font-size: 12px;
+        line-height: 18px;
+
+        &_block {
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            align-items: center;
+            height: 58px;
+
+
+            img {
+                width: 16px;
+                height: 16px;
+                margin-left: 3px;
+                margin-right: 3px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}

@@ -131,6 +131,51 @@
             }
         }
     }
+
+    .footer {
+        &__wrapper {
+            h5 {
+                font-size: 15px;
+            }
+
+            &_info {
+                margin-right: 30px;
+
+                &-social {
+                    svg {
+                        margin-right: 10px;
+                    }
+
+                }
+            }
+
+            &_map {
+                padding-right: 25px;
+
+                &-link {
+                    li {
+                        a {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+
+            &_courses {
+                padding-right: 25px;
+            }
+
+            &_contact {
+                padding-right: 25px;
+            }
+
+            &_signup {
+                input {
+                    max-width: 260px;
+                }
+            }
+        }
+    }
 }
 
 @media(max-width:991px) {
@@ -391,6 +436,14 @@
     .subscribe {
         background: url(../img/subscribe.png) center (center/cover) no-repeat;
         padding: 90px 0;
+    }
+
+    .footer {
+        &__wrapper {
+            &_info {
+                display: none;
+            }
+        }
     }
 }
 
@@ -671,8 +724,30 @@
                 max-width: 100%;
             }
         }
+    }
 
+    .footer {
+        &__wrapper {
+            &_courses {
+                display: none;
+            }
 
+            &_map {
+                padding-right: 20px;
+            }
+
+            &_contact {
+                padding-right: 20px;
+            }
+
+            &_signup {
+                width: 240px;
+            }
+        }
+
+        &__sub_block {
+            justify-content: center;
+        }
     }
 }
 
@@ -1050,6 +1125,46 @@
             button {
                 margin-top: 20px;
                 margin-left: 0;
+            }
+        }
+    }
+
+    .footer {
+        padding: 30px 0 0 0;
+
+        &__wrapper {
+            flex-direction: column;
+            align-items: left;
+
+            &_map {
+                display: none;
+            }
+
+            &_contact>div {
+                padding-top: 3px;
+            }
+
+            &_contact-tel {
+                &::before {
+                    top: 10px;
+                }
+            }
+
+            &_contact-email {
+                &::before {
+                    top: 10px;
+                }
+            }
+
+            &_signup {
+                width: 100%;
+                margin-top: 30px;
+
+                input {
+                    max-width: 100%;
+                    width: 100%;
+                    margin-top: 10px;
+                }
             }
         }
     }

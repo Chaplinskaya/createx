@@ -23,6 +23,7 @@
         &_items {
             width: 390px;
             min-height: 507px;
+            position: relative;
 
             &:nth-child(2) {
                 margin: 0 10px;
@@ -30,6 +31,12 @@
 
             &-img {
                 max-width: 100%;
+            }
+
+            &-icon {
+                position: absolute;
+                left: 12px;
+                top: 12px;
             }
 
             &-title {

@@ -1190,9 +1190,9 @@
     }
 
     .modal {
-        width: 300px;
+        width: 270px;
         padding: 10px;
-        min-height: 500px;
+        min-height: 400px;
 
         &__subtitle {
             padding-bottom: 10px;
@@ -1205,24 +1205,24 @@
         }
 
         &-form {
-            width: 280px;
+            width: 250px;
 
             input {
                 font-size: 12px;
                 padding-left: 10px;
                 margin-bottom: 10px;
+
+            }
+
+            &-email,
+            .password-label {
+                input {
+                    width: 100%;
+                }
             }
 
             &-footer {
-                margin-top: 10px;
-
-                p {
-                    margin: 12px 0;
-                }
-
-                &-social {
-                    margin-top: 10px;
-                }
+                display: none;
             }
 
             &-block {

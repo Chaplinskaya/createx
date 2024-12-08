@@ -97,4 +97,42 @@ window.addEventListener('DOMContentLoaded', () => {
             }]
     });
 
-})
+    function showPassword() {
+        const btn = document.querySelectorAll('.password-btn'),
+            input = document.querySelectorAll('.form-input');
+
+        btn.forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('active');
+
+                input.forEach(item => {
+                    if (item.getAttribute('type') === 'password') {
+                        item.setAttribute('type', 'text');
+
+                    } else {
+                        item.setAttribute('type', 'password');
+
+                    }
+
+                });
+
+
+            })
+        });
+    };
+
+    showPassword();
+
+    //Modal
+
+    $('[data-modal=signin]').on('click', function () {
+        $('.overlay, #signin').fadeIn('slow');
+    });
+    $('[data-modal=signup]').on('click', function () {
+        $('.overlay, #signup').fadeIn('slow');
+    });
+    $('.modal__close').on('click', function () {
+        $('.overlay, #signin, #signup, #thanks').fadeOut('slow');
+    });
+
+});

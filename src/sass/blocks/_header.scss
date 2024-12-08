@@ -56,9 +56,13 @@
         justify-content: space-between;
         align-items: center;
 
+        &-wrap {
+            display: flex;
+            margin-left: 34px;
+        }
+
         &_log {
             text-decoration: none;
-            margin-left: 35px;
             display: flex;
             align-items: center;
             font-size: 16px;
@@ -81,5 +85,16 @@
             }
         }
 
+        &_reg {
+            text-decoration: none;
+            margin-left: 5px;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 25.6px;
+            text-align: left;
+            color: #424551;
+
+        }
     }
+
 }

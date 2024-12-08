@@ -1192,10 +1192,16 @@
     .modal {
         width: 300px;
         padding: 10px;
-        min-height: 600px;
+        min-height: 500px;
+
+        &__subtitle {
+            padding-bottom: 10px;
+            line-height: 28px;
+        }
 
         &__descr {
             font-size: 12px;
+            padding-bottom: 12px;
         }
 
         &-form {
@@ -1204,10 +1210,19 @@
             input {
                 font-size: 12px;
                 padding-left: 10px;
+                margin-bottom: 10px;
             }
 
-            &-footer-social {
+            &-footer {
                 margin-top: 10px;
+
+                p {
+                    margin: 12px 0;
+                }
+
+                &-social {
+                    margin-top: 10px;
+                }
             }
 
             &-block {
@@ -1217,6 +1232,7 @@
 
         .button_submit {
             width: 100%;
+            margin-top: 10px;
         }
     }
 }

@@ -108,10 +108,10 @@ window.addEventListener('DOMContentLoaded', () => {
                 input.forEach(item => {
                     if (item.getAttribute('type') === 'password') {
                         item.setAttribute('type', 'text');
-                        delete item;
+
                     } else {
                         item.setAttribute('type', 'password');
-                        delete item;
+
                     }
 
                 });

@@ -161,8 +161,15 @@
     }
 }
 
+#consultation {
+    min-height: 250px;
+}
+
+
+
 #signin,
 #signup,
-#thanks {
+#thanks,
+#consultation {
     display: none;
 }

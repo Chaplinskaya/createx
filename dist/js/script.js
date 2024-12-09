@@ -133,8 +133,17 @@ window.addEventListener('DOMContentLoaded', () => {
         $('.overlay, #signup').fadeIn('slow');
 
     });
+    $('[data-modal=consultation]').on('click', function () {
+        $('.overlay, #consultation').fadeIn('slow');
+
+    });
+    $('[data-modal=button-consultation]').on('click', function () {
+        $('.overlay, #thanks').fadeIn('slow');
+        $('#consultation').fadeOut('slow');
+
+    });
     $('.modal__close').on('click', function () {
-        $('.overlay, #signin, #signup, #thanks').fadeOut('slow');
+        $('.overlay, #signin, #signup, #consultation, #thanks').fadeOut('slow');
 
     });
 

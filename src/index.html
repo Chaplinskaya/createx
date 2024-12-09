@@ -46,7 +46,7 @@
                         </div>
                     </div>
                     <div class="header__right-block">
-                        <button class="button">Get consultation</button>
+                        <button class="button" data-modal="consultation">Get consultation</button>
                         <div class="header__right-block-wrap">
                             <a href="#" data-modal="signin" class="header__right-block_log">Log in /</a>
                             <a href="#" data-modal="signup" class="header__right-block_reg">Register</a>
@@ -721,6 +721,21 @@
                     </div>
                 </div>
             </form>
+        </div>
+
+        <div class="modal" id="consultation">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Contact us</div>
+            <form action="#" class="modal-form">
+                <label for="fullname">What is your name?
+                    <input name="fullname" required placeholder="Your name" type="text">
+                </label>
+                <label for="telephone" class="label telephone-label">Your telephone
+                    <input name="telephone" required type="number" class="form-input">
+                </label>
+
+                <button class="button button_submit" id="button_consultation" data-modal="button-consultation">Sign
+                    in</button>
         </div>
         <div class="modal modal_mini" id="thanks">
             <div class="modal__close">&times;</div>

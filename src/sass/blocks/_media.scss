@@ -1192,7 +1192,7 @@
     .modal {
         width: 270px;
         padding: 10px;
-        min-height: 400px;
+        min-height: 380px;
 
         &__subtitle {
             padding-bottom: 10px;
@@ -1202,6 +1202,7 @@
         &__descr {
             font-size: 12px;
             padding-bottom: 12px;
+            line-height: 16px;
         }
 
         &-form {
@@ -1211,6 +1212,7 @@
                 font-size: 12px;
                 padding-left: 10px;
                 margin-bottom: 10px;
+                height: 42px;
 
             }
 
@@ -1227,6 +1229,25 @@
 
             &-block {
                 font-size: 12px;
+                margin-top: 5px;
+            }
+
+            &-account {
+                padding-top: 15px;
+            }
+
+            &-check {
+                align-items: center;
+                height: 24px;
+
+                input {
+                    height: 24px;
+                    margin-top: 0;
+                }
+
+                label {
+                    height: 24px;
+                }
             }
         }
 

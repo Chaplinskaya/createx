@@ -127,12 +127,15 @@ window.addEventListener('DOMContentLoaded', () => {
 
     $('[data-modal=signin]').on('click', function () {
         $('.overlay, #signin').fadeIn('slow');
+        document.body.style.position = 'fixed';
     });
     $('[data-modal=signup]').on('click', function () {
         $('.overlay, #signup').fadeIn('slow');
+        document.body.style.position = 'fixed';
     });
     $('.modal__close').on('click', function () {
         $('.overlay, #signin, #signup, #thanks').fadeOut('slow');
+        document.body.style.position = 'static';
     });
 
 });

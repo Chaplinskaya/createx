@@ -176,6 +176,10 @@
             }
         }
     }
+
+    .button_submit {
+        width: 100%;
+    }
 }
 
 @media(max-width:991px) {
@@ -191,6 +195,11 @@
         &__right-block {
             margin-left: 10px;
             flex-direction: column;
+
+            &-wrap {
+                margin-top: 5px;
+                margin-left: 0;
+            }
 
             &_log {
                 margin-top: 0px;
@@ -445,6 +454,8 @@
             }
         }
     }
+
+
 }
 
 @media(max-width:768px) {
@@ -768,6 +779,8 @@
 
 
 @media(max-width:575px) {
+
+
     .container {
         max-width: 320px;
     }

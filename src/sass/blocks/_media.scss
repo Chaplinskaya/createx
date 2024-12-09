@@ -1210,6 +1210,7 @@
         &__subtitle {
             padding-bottom: 10px;
             line-height: 28px;
+            font-size: 24px;
         }
 
         &__descr {
@@ -1267,6 +1268,18 @@
         .button_submit {
             width: 100%;
             margin-top: 10px;
+        }
+
+
+    }
+
+    #signup {
+        label {
+            font-size: 12px;
+        }
+
+        input {
+            height: 40px;
         }
     }
 }

@@ -1281,5 +1281,9 @@
         input {
             height: 40px;
         }
+
+        .modal-form .password-label .password-btn:after {
+            top: 7px;
+        }
     }
 }

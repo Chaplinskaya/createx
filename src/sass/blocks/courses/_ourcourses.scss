@@ -1,0 +1,44 @@
+// file courses
+
+.meet-courses {
+    padding: 50px 0;
+}
+
+.title-courses {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #1E212C;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+
+.h2-courses {
+    text-align: center;
+}
+
+.allcourses {
+    padding: 30px;
+
+    .courses__items {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__item {
+        max-width: 380px;
+        min-height: 438px;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .courses__items_item:nth-child(n) {
+        margin-right: 0px;
+        margin: 5px;
+    }
+}

@@ -14,6 +14,7 @@ window.addEventListener('DOMContentLoaded', () => {
         })
     });
 
+
     //slider
 
     $('.meet__carousel').slick({
@@ -97,6 +98,7 @@ window.addEventListener('DOMContentLoaded', () => {
             }]
     });
 
+
     function showPassword() {
         const btn = document.querySelectorAll('.password-btn'),
             input = document.querySelectorAll('.form-input');
@@ -123,6 +125,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
     showPassword();
 
+
+
     //Modal
 
     $('[data-modal=signin]').on('click', function () {
@@ -140,6 +144,10 @@ window.addEventListener('DOMContentLoaded', () => {
     $('[data-modal=button-consultation]').on('click', function () {
         $('.overlay, #thanks').fadeIn('slow');
         $('#consultation').fadeOut('slow');
+
+    });
+    $('[data-modal=button-subscribe]').on('click', function () {
+        $('.overlay, #thanks').fadeIn('slow');
 
     });
     $('.modal__close').on('click', function () {

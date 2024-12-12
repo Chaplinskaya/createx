@@ -987,7 +987,7 @@
     }
 
     .allcourses {
-        .courses__items_item.allcourses__item {
+        .courses__items_item {
             min-height: auto;
 
             img {
@@ -996,8 +996,6 @@
             }
         }
     }
-
-
 
     .benefits {
         padding: 70px 0;

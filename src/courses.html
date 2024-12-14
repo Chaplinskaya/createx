@@ -59,80 +59,184 @@
         <div class="container">
             <div class="title-courses">Enjoy your studying!</div>
             <h2 class="h2-courses">Our online courses</h2>
-            <div class="courses__items">
-                <div class="courses__items_item allcourses__item">
+
+            <div class="allcourses__wrapper">
+                <ul class="allcourses__wrapper_tabs">
+                    <li class="allcourses__wrapper_tabs_tab allcourses__wrapper_tabs_tab-active" data-tab="all">All</li>
+                    <li class="allcourses__wrapper_tabs_tab" data-tab="green">
+                        Marketing</li>
+                    <li class="allcourses__wrapper_tabs_tab" data-tab="blue">Management</li>
+                    <li class="allcourses__wrapper_tabs_tab" data-tab="orange">HR & Recruting</li>
+                    <li class="allcourses__wrapper_tabs_tab" data-tab="pink">Design</li>
+                    <li class="allcourses__wrapper_tabs_tab" data-tab="pink">Development</li>
+                </ul>
+                <input type="text" placeholder="Search course..." class="allcourses__wrapper_input">
+            </div>
+
+            <div class="courses__items allcourses__items allcourses__items_active">
+                <a class="courses__items_item allcourses__item courses__item_active" href="curator.html">
                     <img src="img/teacher-1.png" alt="coursescourses" class="courses__items_img allcourses_img">
                     <div class="courses__items_block">
-                        <div class="courses__items_block-title green">Marketing</div>
+                        <div class="courses__items_block-title green" id="green">Marketing</div>
                         <div class="courses__items_block-descr">The Ultimate Google Ads Training Course</div>
                         <div class="courses__items_block-total"><span>$100</span>by Jerome Bell</div>
                     </div>
-                </div>
-                <div class="courses__items_item allcourses__item">
+                </a>
+                <a class="courses__items_item allcourses__item" href="curator.html">
                     <img src="img/teacher-2.png" alt="courses" class="courses__items_img allcourses_img">
                     <div class="courses__items_block">
-                        <div class="courses__items_block-title blue">Management</div>
+                        <div class="courses__items_block-title blue" id="blue">Management</div>
                         <div class="courses__items_block-descr">Product Management Fundamentals</div>
                         <div class="courses__items_block-total"><span>$480</span>by Marvin McKinney</div>
                     </div>
-                </div>
-                <div class="courses__items_item allcourses__item">
+                </a>
+                <a class="courses__items_item allcourses__item" href="curator.html">
                     <img src="img/teacher-3.png" alt="courses" class="courses__items_img allcourses_img">
                     <div class="courses__items_block">
-                        <div class="courses__items_block-title orange">HR & Recruting</div>
+                        <div class="courses__items_block-title orange" id="orange">HR & Recruting</div>
                         <div class="courses__items_block-descr">HR Management and Analytics</div>
                         <div class="courses__items_block-total"><span>$200</span>by Leslie Alexander Li</div>
                     </div>
-                </div>
-                <div class="courses__items_item allcourses__item">
+                </a>
+                <a class="courses__items_item allcourses__item" href="curator.html">
                     <img src="img/teacher-4.png" alt="courses" class="courses__items_img allcourses_img">
                     <div class="courses__items_block">
-                        <div class="courses__items_block-title green">Marketing</div>
+                        <div class="courses__items_block-title green" id="green">Marketing</div>
                         <div class="courses__items_block-descr">Brand Management & PR Communications</div>
                         <div class="courses__items_block-total"><span>$530</span>by Kristin Watson</div>
                     </div>
-                </div>
-                <div class="courses__items_item allcourses__item">
+                </a>
+                <a class="courses__items_item allcourses__item" href="curator.html">
                     <img src="img/teacher-5.png" alt="courses" class="courses__items_img allcourses_img">
                     <div class="courses__items_block">
-                        <div class="courses__items_block-title blue">Management</div>
+                        <div class="courses__items_block-title blue" id="blue">Management</div>
                         <div class="courses__items_block-descr">Business Development Management</div>
                         <div class="courses__items_block-total"><span>$400</span>by Dianne Russell</div>
                     </div>
-                </div>
-                <div class="courses__items_item allcourses__item">
+                </a>
+                <a class="courses__items_item allcourses__item" href="curator.html">
                     <img src="img/teacher-6.png" alt="courses" class="courses__items_img allcourses_img">
                     <div class="courses__items_block">
-                        <div class="courses__items_block-title pink">Design</div>
+                        <div class="courses__items_block-title pink" id="pink">Design</div>
                         <div class="courses__items_block-descr">Graphic Design Basic</div>
                         <div class="courses__items_block-total"><span>$500</span>by Guy Hawkins</div>
                     </div>
-                </div>
-                <div class="courses__items_item allcourses__item">
+                </a>
+                <a class="courses__items_item allcourses__item" href="curator.html">
                     <img src="img/teacher-7.png" alt="courses" class="courses__items_img allcourses_img">
                     <div class="courses__items_block">
-                        <div class="courses__items_block-title pink">Design</div>
-                        <div class="courses__items_block-descr">Graphic Design Basic</div>
+                        <div class="courses__items_block-title purple" id="purple">Development</div>
+                        <div class="courses__items_block-descr">Highload Software Architecture</div>
                         <div class="courses__items_block-total"><span>$500</span>by Guy Hawkins</div>
                     </div>
-                </div>
-                <div class="courses__items_item allcourses__item">
+                </a>
+                <a class="courses__items_item allcourses__item" href="curator.html">
                     <img src="img/teacher-8.png" alt="courses" class="courses__items_img allcourses_img">
                     <div class="courses__items_block">
-                        <div class="courses__items_block-title pink">Design</div>
-                        <div class="courses__items_block-descr">Graphic Design Basic</div>
+                        <div class="courses__items_block-title orange" id="orange">HR & Recruting</div>
+                        <div class="courses__items_block-descr">Human Resources – Selection and Recruitment</div>
                         <div class="courses__items_block-total"><span>$500</span>by Guy Hawkins</div>
                     </div>
-                </div>
-                <div class="courses__items_item allcourses__item">
+                </a>
+                <a class="courses__items_item allcourses__item" href="curator.html">
                     <img src="img/teacher-9.png" alt="courses" class="courses__items_img allcourses_img">
                     <div class="courses__items_block">
-                        <div class="courses__items_block-title pink">Design</div>
+                        <div class="courses__items_block-title pink" id="pink">Design</div>
                         <div class="courses__items_block-descr">Graphic Design Basic</div>
                         <div class="courses__items_block-total"><span>$500</span>by Guy Hawkins</div>
                     </div>
-                </div>
+                </a>
 
+            </div>
+
+            <div class="courses__items allcourses__items">
+                <a class="courses__items_item allcourses__item courses__item_active" href="curator.html">
+                    <img src="img/teacher-1.png" alt="coursescourses" class="courses__items_img allcourses_img">
+                    <div class="courses__items_block">
+                        <div class="courses__items_block-title green" id="green">Marketing</div>
+                        <div class="courses__items_block-descr">The Ultimate Google Ads Training Course</div>
+                        <div class="courses__items_block-total"><span>$100</span>by Jerome Bell</div>
+                    </div>
+                </a>
+                <a class="courses__items_item allcourses__item" href="curator.html">
+                    <img src="img/teacher-4.png" alt="courses" class="courses__items_img allcourses_img">
+                    <div class="courses__items_block">
+                        <div class="courses__items_block-title green" id="green">Marketing</div>
+                        <div class="courses__items_block-descr">Brand Management & PR Communications</div>
+                        <div class="courses__items_block-total"><span>$530</span>by Kristin Watson</div>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="courses__items allcourses__items">
+                <a class="courses__items_item allcourses__item" href="curator.html">
+                    <img src="img/teacher-2.png" alt="courses" class="courses__items_img allcourses_img">
+                    <div class="courses__items_block">
+                        <div class="courses__items_block-title blue" id="blue">Management</div>
+                        <div class="courses__items_block-descr">Product Management Fundamentals</div>
+                        <div class="courses__items_block-total"><span>$480</span>by Marvin McKinney</div>
+                    </div>
+                </a>
+
+                <a class="courses__items_item allcourses__item" href="curator.html">
+                    <img src="img/teacher-5.png" alt="courses" class="courses__items_img allcourses_img">
+                    <div class="courses__items_block">
+                        <div class="courses__items_block-title blue" id="blue">Management</div>
+                        <div class="courses__items_block-descr">Business Development Management</div>
+                        <div class="courses__items_block-total"><span>$400</span>by Dianne Russell</div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="courses__items allcourses__items">
+                <a class="courses__items_item allcourses__item" href="curator.html">
+                    <img src="img/teacher-3.png" alt="courses" class="courses__items_img allcourses_img">
+                    <div class="courses__items_block">
+                        <div class="courses__items_block-title orange" id="orange">HR & Recruting</div>
+                        <div class="courses__items_block-descr">HR Management and Analytics</div>
+                        <div class="courses__items_block-total"><span>$200</span>by Leslie Alexander Li</div>
+                    </div>
+                </a>
+                <a class="courses__items_item allcourses__item" href="curator.html">
+                    <img src="img/teacher-8.png" alt="courses" class="courses__items_img allcourses_img">
+                    <div class="courses__items_block">
+                        <div class="courses__items_block-title orange" id="orange">HR & Recruting</div>
+                        <div class="courses__items_block-descr">Human Resources – Selection and Recruitment</div>
+                        <div class="courses__items_block-total"><span>$500</span>by Guy Hawkins</div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="courses__items allcourses__items">
+                <a class="courses__items_item allcourses__item" href="curator.html">
+                    <img src="img/teacher-6.png" alt="courses" class="courses__items_img allcourses_img">
+                    <div class="courses__items_block">
+                        <div class="courses__items_block-title pink" id="pink">Design</div>
+                        <div class="courses__items_block-descr">Graphic Design Basic</div>
+                        <div class="courses__items_block-total"><span>$500</span>by Guy Hawkins</div>
+                    </div>
+                </a>
+                <a class="courses__items_item allcourses__item" href="curator.html">
+                    <img src="img/teacher-9.png" alt="courses" class="courses__items_img allcourses_img">
+                    <div class="courses__items_block">
+                        <div class="courses__items_block-title pink" id="pink">Design</div>
+                        <div class="courses__items_block-descr">Graphic Design Basic</div>
+                        <div class="courses__items_block-total"><span>$500</span>by Guy Hawkins</div>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="courses__items allcourses__items">
+                <a class="courses__items_item allcourses__item" href="curator.html">
+                    <img src="img/teacher-7.png" alt="courses" class="courses__items_img allcourses_img">
+                    <div class="courses__items_block">
+                        <div class="courses__items_block-title purple" id="purple">Development</div>
+                        <div class="courses__items_block-descr">Highload Software Architecture</div>
+                        <div class="courses__items_block-total"><span>$500</span>by Guy Hawkins</div>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
@@ -252,7 +356,7 @@
     </section>
     <section class="certificate">
         <div class="container">
-            <div class="certificate__wrapper">
+            <div class="certificate__wrapper certificate_courses">
                 <div class="certificate__block">
                     <div class="title-mini">Createx certificate</div>
                     <h2>Your expertise will be confirmed</h2>
@@ -269,7 +373,7 @@
                     </div>
 
                 </div>
-                <div class="certificate__wrapper_img">
+                <div class="certificate__wrapper_img certificate_img">
                     <img src="img/sertificat.png" alt="sertificat">
                 </div>
             </div>

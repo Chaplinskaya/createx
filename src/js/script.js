@@ -153,4 +153,19 @@ window.addEventListener('DOMContentLoaded', () => {
 
     });
 
+    //tabs
+    //const allTabs = document.querySelectorAll('.allcourses__wrapper_tabs_tab');
+
+    //$('[data-tab=all]').on('click', function () {
+    //allTabs.forEach(item => {
+    //item.addEventListener('click', () => {
+    //item.classList.toggle('allcourses__wrapper_tabs_tab-active');
+    //})
+    //});
+
+    $('ul.allcourses__wrapper_tabs').on('click', 'li:not(.allcourses__wrapper_tabs_tab-active)', function () {
+        $(this)
+            .addClass('allcourses__wrapper_tabs_tab-active').siblings().removeClass('allcourses__wrapper_tabs_tab-active').closest('div.container').find('div.courses__items').removeClass('allcourses__items_active').eq($(this).index()).addClass('allcourses__items_active');
+    });
+
 });

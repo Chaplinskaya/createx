@@ -23,9 +23,63 @@
 .allcourses {
     padding: 30px;
 
-    .courses__items {
+    &__wrapper {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+
+
+        &_tabs {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+
+            &_tab {
+                padding: 10px 20px;
+                list-style-type: none;
+                cursor: pointer;
+                color: #9A9CA5;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 25.6px;
+                text-align: center;
+                transition: 0.5s all;
+
+                &:hover {
+                    box-shadow: 1px 1px 5px #FF3F3A;
+                    border: none;
+                }
+
+
+                &-active {
+                    color: #FF3F3A;
+                    border: solid 1px #FF3F3A;
+                    border-radius: 4px;
+
+
+                }
+            }
+
+        }
+
+        &_input {
+            margin-left: 100px;
+            padding-left: 16px;
+            width: 315px;
+            height: 44px;
+        }
+    }
+
+    &__items {
+        display: none;
+        margin-top: 40px;
+
+        &_active {
+            display: flex;
+            justify-content: space-between;
+        }
     }
 
     &__item {
@@ -35,10 +89,24 @@
         justify-items: center;
         align-items: center;
         flex-direction: column;
+
+
     }
 
     .courses__items_item:nth-child(n) {
         margin-right: 0px;
         margin: 10px 5px;
+        text-decoration: none;
+    }
+}
+
+.certificate {
+    &_courses {
+        position: static;
+        justify-content: center;
+    }
+
+    &_img {
+        position: static;
     }
 }

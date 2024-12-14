@@ -1,5 +1,4 @@
 @media(max-width: 1230px) {
-
     .container {
         max-width: 991px;
 
@@ -179,6 +178,31 @@
 
     .button_submit {
         width: 100%;
+    }
+
+    .allcourses {
+        &__wrapper {
+            flex-direction: column;
+            justify-items: center;
+
+            input {
+                margin-left: 0;
+            }
+
+
+            li {
+                padding: 10px 20px;
+
+            }
+        }
+
+        .courses__items {
+            justify-content: center;
+
+            &_active {
+                justify-content: center;
+            }
+        }
     }
 }
 
@@ -779,6 +803,14 @@
             justify-content: center;
         }
     }
+
+    .allcourses {
+        &__wrapper li {
+            font-size: 14px;
+            padding: 10px 10px;
+        }
+
+    }
 }
 
 
@@ -1299,6 +1331,19 @@
 
         .modal-form .password-label .password-btn:after {
             top: 7px;
+        }
+    }
+
+    .allcourses {
+        &__wrapper {
+            li {
+                padding: 8px 8px;
+                font-size: 12px;
+            }
+
+            input {
+                width: 100%;
+            }
         }
     }
 }

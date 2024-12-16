@@ -48,8 +48,6 @@
     line-height: 44px;
     letter-spacing: 0.5px;
     text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     color: #FF3F3A;
     border: solid 1px #FF3F3A;
     border-radius: 4px;
@@ -71,6 +69,11 @@
     margin-top: 24px;
     font-size: 14px;
     line-height: 44px;
+
+    &:hover {
+        background-color: #FF6561;
+        color: #fff;
+    }
 }
 
 .events__footer_button {

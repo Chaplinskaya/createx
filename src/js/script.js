@@ -168,4 +168,54 @@ window.addEventListener('DOMContentLoaded', () => {
             .addClass('allcourses__wrapper_tabs_tab-active').siblings().removeClass('allcourses__wrapper_tabs_tab-active').closest('div.container').find('div.courses__items').removeClass('allcourses__items_active').eq($(this).index()).addClass('allcourses__items_active');
     });
 
+    $('.modal-form').validate();
+    $('#subscribe').validate();
+
+    $('#signin form').validate({
+        rules: {
+            password: "required",
+            email: {
+                required: true,
+                email: true
+            }
+        },
+        messages: {
+            email: {
+                required: "We need your email address to contact you",
+                email: "Your email address must be in the format of name@domain.com"
+            }
+        }
+    });
+    $('#signup form').validate({
+        rules: {
+            password: "required",
+            email: {
+                required: true,
+                email: true
+            }
+        },
+        messages: {
+            email: {
+                required: "We need your email address to contact you",
+                email: "Your email address must be in the format of name@domain.com"
+            }
+        }
+    });
+
+    $('#consultation form').validate({
+        rules: {
+            telephone: {
+                required: true
+            },
+            name: {
+                required: true
+            },
+            messages: {
+                telephone: {
+                    required: "We need your phone to contact you"
+                }
+            }
+        }
+    });
+
 });

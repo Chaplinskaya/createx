@@ -513,8 +513,8 @@
         <div class="container">
             <div class="title-mini">Don't miss anything</div>
             <h2>Subscribe to the Createx School <br> announcements</h2>
-            <form action="#">
-                <input type="text" placeholder="Your working email" class="subscribe__form_input">
+            <form id="subscribe" action="#">
+                <input type="text" required placeholder="Your working email" class="subscribe__form_input">
                 <button class="button subscribe__form_button" id="button_subscribe"
                     data-modal="button-subscribe">Subscribe</button>
             </form>
@@ -610,10 +610,10 @@
             </div>
             <form action="#" class="modal-form">
                 <label for="email" class="modal-form-email">Email
-                    <input name="email" required placeholder="Your working email" type="email">
+                    <input name="email" placeholder="Your working email" type="email">
                 </label>
                 <label for="password" class="label password-label">Password
-                    <input name="password" required type="password" class="form-input">
+                    <input name="password" type="password" class="form-input">
                     <div class="password-btn"><img src="icons/eyes.png" alt="eyes"></div>
                 </label>
                 <div class="modal-form-block">
@@ -669,17 +669,17 @@
             </div>
             <form action="#" class="modal-form">
                 <label for="fullname">Full Name
-                    <input name="fullname" required placeholder="Your full name" type="text">
+                    <input name="fullname" placeholder="Your full name" type="text">
                 </label>
                 <label for="email">Email
-                    <input name="email" required placeholder="Your working email" type="email">
+                    <input name="email" placeholder="Your working email" type="email">
                 </label>
                 <label for="password" class="label password-label">Password
-                    <input name="password" required type="password" class="form-input">
+                    <input name="password" type="password" class="form-input">
                     <div class="password-btn"><img src="icons/eyes.png" alt="eyes"></div>
                 </label>
                 <label for="password" class="label password-label">Confirm Password
-                    <input name="password" required type="password" class="form-input">
+                    <input name="password" type="password" class="form-input">
                     <div class="password-btn"><img src="icons/eyes.png" alt="eyes"></div>
                 </label>
                 <div class="modal-form-block">
@@ -730,10 +730,10 @@
             <div class="modal__subtitle">Contact us</div>
             <form action="#" class="modal-form">
                 <label for="fullname">What is your name?
-                    <input name="fullname" required placeholder="Your name" type="text">
+                    <input name="fullname" placeholder="Your name" type="text">
                 </label>
                 <label for="telephone" class="label telephone-label">Your telephone
-                    <input name="telephone" required type="number" class="form-input">
+                    <input name="telephone" type="number" class="form-input">
                 </label>
 
                 <button class="button button_submit" id="button_consultation" data-modal="button-consultation">Sign
@@ -750,6 +750,7 @@
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 

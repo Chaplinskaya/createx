@@ -506,7 +506,7 @@
 
 @media(max-width:768px) {
     .container {
-        max-width: 575px;
+        max-width: 560px;
     }
 
     h2 {
@@ -790,10 +790,15 @@
 
     .subscribe {
         form {
-            max-width: 90%;
+            width: 100%;
 
             input {
-                max-width: 100%;
+                max-width: 95%;
+            }
+
+            button {
+                width: 100%;
+                margin-left: 0;
             }
         }
     }
@@ -1244,6 +1249,14 @@
             button {
                 margin-top: 20px;
                 margin-left: 0;
+                width: 300px;
+                max-width: 100%;
+            }
+
+            input {
+                width: 300px;
+                max-width: 100%;
+
             }
         }
     }

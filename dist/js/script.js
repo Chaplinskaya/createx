@@ -142,13 +142,12 @@ window.addEventListener('DOMContentLoaded', () => {
     //$('[data-modal=button-consultation]').on('click', function () {
     //$('.overlay, #thanks').fadeIn('slow');
     //$('#consultation').fadeOut('slow');
-
     //});
 
     //$('[data-modal=button-subscribe]').on('click', function () {
     //$('.overlay, #thanks').fadeIn('slow');
-
     //});
+
     $('.modal__close').on('click', function () {
         $('.overlay, #signin, #signup, #consultation, #thanks').fadeOut('slow');
 
@@ -193,5 +192,9 @@ window.addEventListener('DOMContentLoaded', () => {
     validateForms('#consultation form');
     validateForms('.modal-form');
     validateForms('.subscribe-form');
+
+
+    $("input[name=telephone]").mask("(999) 999 9999");
+
 
 });

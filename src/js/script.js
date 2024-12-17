@@ -193,4 +193,8 @@ window.addEventListener('DOMContentLoaded', () => {
     validateForms('.modal-form');
     validateForms('.subscribe-form');
 
+
+    $("input[name=telephone]").mask("(999) 999 9999");
+
+
 });

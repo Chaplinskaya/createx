@@ -139,15 +139,15 @@ window.addEventListener('DOMContentLoaded', () => {
         $('.overlay, #consultation').fadeIn('slow');
 
     });
-    $('[data-modal=button-consultation]').on('click', function () {
-        $('.overlay, #thanks').fadeIn('slow');
-        $('#consultation').fadeOut('slow');
+    //$('[data-modal=button-consultation]').on('click', function () {
+    //$('.overlay, #thanks').fadeIn('slow');
+    //$('#consultation').fadeOut('slow');
+    //});
 
-    });
-    $('[data-modal=button-subscribe]').on('click', function () {
-        $('.overlay, #thanks').fadeIn('slow');
+    //$('[data-modal=button-subscribe]').on('click', function () {
+    //$('.overlay, #thanks').fadeIn('slow');
+    //});
 
-    });
     $('.modal__close').on('click', function () {
         $('.overlay, #signin, #signup, #consultation, #thanks').fadeOut('slow');
 
@@ -168,54 +168,29 @@ window.addEventListener('DOMContentLoaded', () => {
             .addClass('allcourses__wrapper_tabs_tab-active').siblings().removeClass('allcourses__wrapper_tabs_tab-active').closest('div.container').find('div.courses__items').removeClass('allcourses__items_active').eq($(this).index()).addClass('allcourses__items_active');
     });
 
-    $('.modal-form').validate();
-    $('#subscribe').validate();
-
-    $('#signin form').validate({
-        rules: {
-            password: "required",
-            email: {
-                required: true,
-                email: true
-            }
-        },
-        messages: {
-            email: {
-                required: "We need your email address to contact you",
-                email: "Your email address must be in the format of name@domain.com"
-            }
-        }
-    });
-    $('#signup form').validate({
-        rules: {
-            password: "required",
-            email: {
-                required: true,
-                email: true
-            }
-        },
-        messages: {
-            email: {
-                required: "We need your email address to contact you",
-                email: "Your email address must be in the format of name@domain.com"
-            }
-        }
-    });
-
-    $('#consultation form').validate({
-        rules: {
-            telephone: {
-                required: true
-            },
-            name: {
-                required: true
+    function validateForms(form) {
+        $(form).validate({
+            rules: {
+                password: "required",
+                telephone: "required",
+                email: {
+                    required: true,
+                    email: true
+                }
             },
             messages: {
-                telephone: {
-                    required: "We need your phone to contact you"
+                email: {
+                    required: "We need your email address to contact you",
+                    email: "Your email address must be in the format of name@domain.com"
                 }
             }
-        }
-    });
+        });
+
+    };
+    validateForms('#signin form');
+    validateForms('#signup form');
+    validateForms('#consultation form');
+    validateForms('.modal-form');
+    validateForms('.subscribe-form');
 
 });

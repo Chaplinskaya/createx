@@ -70,17 +70,6 @@
             padding-left: 16px;
         }
 
-        .error {
-            border: 1px solid red;
-            margin-bottom: 15px;
-            color: #FF6561;
-
-        }
-
-        label.error {
-            border: none;
-            margin-bottom: 15px;
-        }
 
         .password-label {
             position: relative;
@@ -134,6 +123,7 @@
 
             label {
                 padding-left: 10px;
+                margin-top: 0;
 
             }
         }
@@ -175,11 +165,19 @@
     &_mini {
         min-height: 140px;
     }
+}
 
-
+.error {
+    border: 1px solid red;
+    margin-bottom: 15px;
+    color: #FF6561;
 
 }
 
+label.error {
+    border: none;
+    margin-bottom: 15px;
+}
 
 #consultation {
     min-height: 250px;

@@ -483,8 +483,26 @@
         }
     }
 
+    .curator__wrapper_about {
+        padding-left: 40px;
+        width: 70%;
 
+        &-descr {
+            font-size: 14px;
+            line-height: 24px;
+        }
+
+        &-items {
+            margin: 20px 0;
+        }
+
+        &-job {
+            font-size: 18px;
+        }
+    }
 }
+
+
 
 @media(max-width:768px) {
     .container {
@@ -811,6 +829,27 @@
         }
 
     }
+
+    .curator__wrapper {
+        flex-direction: column;
+        justify-content: center;
+
+        &_img {
+            display: flex;
+            justify-content: center;
+
+            img {
+                max-width: 70%;
+            }
+        }
+
+        &_about {
+            width: 100%;
+            padding-left: 0;
+            padding-bottom: 20px;
+        }
+    }
+
 }
 
 

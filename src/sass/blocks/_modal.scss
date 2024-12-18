@@ -195,6 +195,14 @@ label.error {
     min-height: 250px;
 }
 
+#signup,
+#signin {
+    .modal-form {
+        label {
+            margin-bottom: 10px;
+        }
+    }
+}
 
 
 #signin,
